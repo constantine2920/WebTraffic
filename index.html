@@ -56,6 +56,11 @@ Bootstrap Required style and javascript
 	</script>
 </head>
 <body>
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" 
+		src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0&appId=680801756211716&autoLogAppEvents=1" 
+		nonce="oIstirKE">
+	</script>
 	<div ng-app="HomeApp" ng-controller="HomeController">
 		<nav id="WebsiteNavigation" class="navbar navbar-expand-sm bg-light">
 			<a class="navbar-brand" href="#">
@@ -87,8 +92,7 @@ Bootstrap Required style and javascript
 			<p>Name : <input type="text" ng-model="name" placeholder="Enter name here"></p>
 			
 			<iframe id="CatVideoForEvent" width="560" height="315" src="https://www.youtube.com/embed/a5V6gdu5ih8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		
-		<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FGibbyGBreakfest%2F&width=0&layout=standard&action=like&size=large&share=true&height=35&appId=680801756211716" width="0" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+		<div class="fb-like" data-href="https://www.facebook.com/GibbyGBreakfest/" data-width="" data-layout="standard" data-action="like" data-size="large" data-share="true"></div>ght=35&appId=680801756211716" width="0" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 	  </div>
 	  
 	<!-- Footer -->
